@@ -31,7 +31,10 @@
       };
     </script>
     <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/7e0e92cba6.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/7e0e92cba6.js"
+      crossorigin="anonymous"
+    ></script>
     <style>
       .font-manrope {
         font-family: "Manrope", sans-serif;
@@ -39,7 +42,7 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header class="max-w-6xl mx-auto">
+    <header class="max-w-6xl mx-5 lg:mx-auto">
       <!-- navbar section -->
       <section class="my-4 lg:my-12">
         <div class="navbar bg-base-100">
@@ -87,11 +90,68 @@
           </div>
           <div class="navbar-end">
             <div>
-                <i class="fa-solid fa-magnifying-glass text-[#89898B] mr-6"></i>
-                <a class="btn bg-primary text-[#FFF] px-6 py-4">Get Ticket</a>
+              <i class="fa-solid fa-magnifying-glass text-[#89898B] mr-6"></i>
+              <a class="btn bg-primary text-[#FFF] px-6 py-4">Get Ticket</a>
             </div>
           </div>
         </div>
+      </section>
+      <!-- banner section -->
+      <section class="lg:my-12">
+        <div class="carousel w-full rounded-xl">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img
+              src="Images/1.png"
+              class="w-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img
+              src="Images/2.png"
+              class="w-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img
+              src="Images/3.png"
+              class="w-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img
+              src="Images/4.png"
+              class="w-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        <!-- </div>
+            <div class="bg-black rounded-xl p-8 lg:w-1/2 absolute lg:-mt-48">
+              <h2 class="text-xl lg:text-2xl font-extrabold text-white mb-4">Meet all the heroes from the field</h2>
+              <p class="text-xs font-medium text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div> -->
       </section>
     </header>
     <main></main>
