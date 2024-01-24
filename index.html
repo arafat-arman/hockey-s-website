@@ -97,8 +97,8 @@
         </div>
       </section>
       <!-- banner section -->
-      <section class="lg:my-12">
-        <div class="carousel w-full rounded-xl">
+      <section class="lg:my-12 lg:relative">
+        <div class="carousel w-full rounded-xl relative">
           <div id="slide1" class="carousel-item relative w-full">
             <img
               src="Images/1.png"
@@ -147,11 +147,11 @@
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
           </div>
-        <!-- </div>
-            <div class="bg-black rounded-xl p-8 lg:w-1/2 absolute lg:-mt-48">
+        </div>
+            <div class="bg-black mt-4 rounded-xl p-8 lg:w-2/5 lg:absolute lg:bottom-8 lg:right-8">
               <h2 class="text-xl lg:text-2xl font-extrabold text-white mb-4">Meet all the heroes from the field</h2>
               <p class="text-xs font-medium text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-            </div> -->
+            </div>
       </section>
     </header>
     <main class="max-w-6xl mx-5 lg:mx-auto">
@@ -214,40 +214,37 @@
             <p class="text-[#13131899] font-medium">Our dynamic hockey club offers diverse training, skill development, and engaging events for members.</p>
           </div>
           <hr class="border border-[#13131833] my-10 border-dashed">
-          <div class="lg:grid lg:grid-cols-2">
-            
-              <!-- program section card - 1 -->
-            <div class="card image-full lg:grid lg:grid-rows-1">
+          <div class="flex flex-col space-y-6">
+            <div class="lg:flex lg:flex-row gap-6 space-y-4">
+                <!-- program section card - 1 -->
+            <div class="card image-full">
               <figure><img src="Images/2.png" alt="image" /></figure>
-              <div class="card-body px-10 pt-24 pb-7 gap-y-4">
+              <div class="card-body lg:px-10 lg:pt-24 lg:pb-7 gap-y-4">
                 <h2 class="text-3xl font-extrabold text-white">Junior Program</h2>
-                <p class="font-medium text-white" >Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <p class="font-medium text-white" >Elevate young players in our hockey club Junior Program. Expert coaching, skill-building, and a supportive community empower tomorrow's stars to thrive on the ice. Enroll now for excellence!</p>
                 <div class="mt-4">
                   <button class="btn bg-primary text-white border-none px-5 py-2">Register Now</button>
                 </div>
               </div>
             </div>
             <!-- program section card - 2 -->
-            <div class="card image-full lg:grid lg:grid-rows-1">
+            <div class="card image-full">
               <figure><img src="Images/3.png" alt="image" /></figure>
-              <div class="card-body px-10 pt-24 pb-7 gap-y-4">
-                <h2 class="text-3xl font-extrabold text-white">Junior Program</h2>
-                <p class="font-medium text-white" >Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <div class="card-body lg:px-10 lg:pt-24 lg:pb-7 gap-y-4">
+                <h2 class="text-3xl font-extrabold text-white">Teenager Program</h2>
+                <p class="font-medium text-white" >Nurture teenage talent in our hockey club Teenager Program. Tailored coaching, skill refinement, and a positive community inspire growth and achievement on the ice. Join today for an extraordinary journey!</p>
                 <div class="mt-4">
                   <button class="btn bg-primary text-white border-none px-5 py-2">Register Now</button>
                 </div>
               </div>
             </div>
-            
+            </div>
             <!-- program section card - 3 -->
-            <div class="card image-full ">
+            <div class="card image-full lg:items-end">
               <figure><img src="Images/4.png" alt="image" /></figure>
-              <div class="card-body px-10 pt-24 pb-7 gap-y-4 ">
-                <h2 class="text-3xl font-extrabold text-white">Junior Program</h2>
-                <p class="font-medium text-white" >Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <div class="card-body lg:px-10 lg:pt-24 lg:pb-7 gap-y-4 ">
+                <h2 class="text-3xl font-extrabold text-white">Professional Program</h2>
+                <p class="font-medium text-white" >Join the elite with our hockey club Professional Program. World-class coaching, advanced training, and strategic development propel professionals to excellence. Elevate your game with us!</p>
                 <div class="mt-4">
                   <button class="btn bg-primary text-white border-none px-5 py-2">Register Now</button>
                 </div>
@@ -536,51 +533,22 @@
               </div>
             </div>
             <!-- form -->
-            <div class="lg:grid lg:grid-cols-2">
-
+            <div class="lg:grid lg:grid-cols-2 ">
               <div>
-                <label class="">
-                  <div class="label">
-                    <span class="label-text text-xl font-bold">Your Name</span>
-                  </div>
-                  <input type="text" placeholder="Enter your full name" class="input bg-[#13131808]" />
-                </label>
-              </div>
+                <h3 class="text-xl font-bold mb-4">Your Name</h3>
+                <input type="text" placeholder="Enter your name" class="input w-full max-w-xs bg-[#13131808]" /></div>
               <div>
-                <label class="">
-                  <div class="label">
-                    <span class="label-text text-xl font-bold">Your Email</span>
-                  </div>
-                  <input type="text" placeholder="Enter your email" class="input bg-[#13131808]" />
-                </label>
-              </div>
+                <h3 class="text-xl font-bold mb-4">Your Email</h3>
+                <input type="text" placeholder="Enter your email" class="input w-full max-w-xs bg-[#13131808]" /></div>
               <div>
-                <label class="">
-                  <div class="label">
-                    <span class="label-text text-xl font-bold">Subject</span>
-                  </div>
-                  <input type="text" placeholder="Enter your subject" class="input bg-[#13131808]" />
-                </label>
-              </div>
+                <h3 class="text-xl font-bold mb-4">Subject</h3>
+                <input type="text" placeholder="Enter your subject" class="input w-full max-w-xs bg-[#13131808]" /></div>
               <div>
-                <label class="">
-                  <div class="label">
-                    <span class="label-text text-xl font-bold">Phone Number</span>
-                  </div>
-                  <input type="text" placeholder="Enter your phone number" class="input bg-[#13131808]" />
-                </label>
-              </div>
-              <div>
-                <div class="">
-                  <label class="lg:grid lg:col-span-2">
-                    <div class="label">
-                      <span class="label-text text-xl font-bold">Message</span>
-                    </div>
-                    <input type="text" placeholder="Write your message" class="input bg-[#13131808]" />
-                  </label>
-                </div>
-              </div>
-              <button class="btn bg-primary text-white ">Button</button>
+                <h3 class="text-xl font-bold mb-4">Phone Number</h3>
+                <input type="text" placeholder="Enter your phone number" class="input w-full max-w-xs bg-[#13131808]" /></div>
+              <div class="">
+                <h3 class="text-xl font-bold mb-4">Message</h3>
+                <input type="text" placeholder="Write your message" class="input w-full max-w-xs bg-[#13131808] grid row-span-2" /></div>
             </div>
           </div>
         </section>
@@ -597,17 +565,18 @@
           </footer>
         </section>
     </main>
-      <footer class="footer lg:gap-40 p-10 lg:py-28  lg:px-36 bg-[#131318] ">
+    <!-- footer section -->
+      <footer class="footer lg:gap-40 p-10 lg:py-28  lg:px-44 bg-[#131318] ">
         <div class="space-y-4">
           <h3 class="text-3xl font-extrabold text-white ">Get In Touch</h3>
           <div class="text-[#FFFFFF99] space-y-4">
             <p class="font-medium">Connect with us! <br> Reach out for inquiries, support, or collaboration. <br> We welcome your engagement warmly.</p>
           <div class="flex items-center gap-4">
-            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-regular fa-envelope text-primary"></i>
             <p class="font-medium">hockeys@support.com</p>
           </div>
           <div class="flex items-center gap-4">
-            <i class="fa-solid fa-phone"></i>
+            <i class="fa-solid fa-phone text-primary"></i>
             <p class="font-medium">(+62) 123-321-543</p>
           </div>
           </div>
